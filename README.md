@@ -1,2 +1,2 @@
-![logo](./imagens/layout.png =100x100)
+![logo](./imagens/layout.png)
 ###### Projeto Estágio - DevMedia
