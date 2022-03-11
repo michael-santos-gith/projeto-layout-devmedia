@@ -22,4 +22,4 @@ Feito por [Michael Santos](https://github.com/michael-santos-gith) :computer:
 
 [![Gmail Badge](https://img.shields.io/badge/-maiconxandroid@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:maiconxandroid@gmail.com)](mailto:maiconxandroid@gmail.com)
 
-![GitHub](https://img.shields.io/github/license/michael-santos-gith/projeto-layout-devmedia?color=informational&label=LICENSE&message=MIT&style=for-the-badge)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
