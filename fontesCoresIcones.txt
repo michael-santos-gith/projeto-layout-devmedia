@@ -3,6 +3,7 @@ font-family: Raleway
 
 ### Cores ###
 Laranja: #f44336
+Cinza: #757575
 
 ### Icones ###
 https://fontawesome.com/v5.15/icons?d=gallery&p=1  - SITE

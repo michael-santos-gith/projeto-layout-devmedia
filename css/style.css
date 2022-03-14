@@ -20,3 +20,32 @@ ul {
 img {
     max-width: 100%;
 }
+
+header #header-logo-search {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    padding: 25px 15px 30px;
+    background-color: #fff;
+}
+
+#header-logo-search a {
+    color: #f44336;
+    font-size: 1.2em;
+}
+
+#header-logo-search a span {
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#header-logo-search .logo i {
+    margin-right: 15px;
+    color: #f44336;
+}
+
+#header-logo-search .logo-search {
+    color: #757575;
+}
