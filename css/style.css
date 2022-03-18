@@ -49,3 +49,57 @@ header #header-logo-search {
 #header-logo-search .logo-search {
     color: #757575;
 }
+
+nav {
+    height: 30px;
+    margin-bottom: 44px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+}
+
+nav ul li {
+    width: 100%;
+    padding: 14px 14px;
+    color: #fff;
+}
+
+nav ul li:hover {
+    background-color: #f44336;
+}
+
+nav ul li i {
+    margin-right: 8px;
+}
+
+.travel {
+    width: 100%;
+    padding: 0 16px;
+}
+
+.travel h1 {
+    margin-bottom: 18px;
+    font-size: 1.4em;
+}
+
+.travel input {
+    width: 100%;
+    margin-top: 2px;
+    padding: 14px 10px;
+    border: 1px solid #ccc;
+}
+
+.travel button {
+    width: 65%;
+    height: 40px;
+    margin-top: 16px;
+    margin-bottom: 30px;
+    padding: 14px 14px;
+    line-height: 10px;
+    background-color: #616161;
+    color: #fff;
+}
