@@ -9,6 +9,10 @@
     font-family: 'Raleway', sans-serif;
 }
 
+body {
+    background-color: #efefef;
+}
+
 a {
     text-decoration: none;
 }
@@ -52,7 +56,7 @@ header #header-logo-search {
 
 nav {
     height: 30px;
-    margin-bottom: 44px;
+    /* margin-bottom: 44px; */
 }
 
 nav ul {
@@ -78,17 +82,22 @@ nav ul li i {
 
 .travel {
     width: 100%;
-    padding: 0 16px;
+    margin-top: 16px;
+    padding-top: 44px;
+    padding-left: 16px;
+    padding-right: 16px;
+    background-color: #fff;
 }
 
 .travel h1 {
-    margin-bottom: 18px;
+    margin-bottom: 16px;
     font-size: 1.4em;
 }
 
 .travel input {
     width: 100%;
     margin-top: 2px;
+    margin-bottom: 2px;
     padding: 14px 10px;
     border: 1px solid #ccc;
 }
@@ -96,10 +105,49 @@ nav ul li i {
 .travel button {
     width: 65%;
     height: 40px;
-    margin-top: 16px;
+    margin-top: 14px;
     margin-bottom: 30px;
     padding: 14px 14px;
     line-height: 10px;
     background-color: #616161;
+    color: #fff;
+}
+
+main {
+    padding: 72px 16px 0 16px;
+}
+
+main h2 {
+    font-size: 1.6em;
+}
+
+main p {
+    margin-top: 16px;
+}
+
+main section p strong {
+    font-weight: bold;
+}
+
+.good-offers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.good-offers div img {
+    width: 286px;
+    height: 220px;
+}
+
+.good-offers div {
+    position: relative;
+    margin-top: 12px;
+}
+
+.good-offers div span {
+    position: absolute;
+    top: 190px;
+    left: 16px;
     color: #fff;
 }
