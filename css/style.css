@@ -192,3 +192,77 @@ main section p strong {
 .explore .container-block p {
     margin-bottom: 30px;
 }
+
+section .get-offers {
+    margin-top: 34px;
+    padding: 34px 16px 16px 16px;
+    background-color: #606060;
+    color: #fff;
+}
+
+section .get-offers h2 {
+    font-size: 1.8em;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+section .get-offers p {
+    margin-bottom: 24px;
+}
+
+section .get-offers input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 4px;
+}
+
+section .get-offers button {
+    margin-top: 18px;
+    padding: 12px 18px;
+    background-color: #f38981;
+    color: #fff;
+}
+
+section .contact {
+    margin-top: 36px;
+}
+
+section .contact h2 {
+   margin-bottom: 22px; 
+}
+
+section .contact p {
+    margin-bottom: 24px;
+    font-size: 0.9em;
+}
+
+section .contact ul li {
+    display: flex;
+align-items: baseline;
+    margin-bottom: 8px;
+}
+
+section .contact ul li:last-child {
+    margin-bottom: 0;
+}
+
+section .contact ul li i {
+    margin-right: 18px;
+}
+
+section .contact input[type="text"], input[type="email"] {
+    width: 100%;
+    margin-top: 16px;
+    padding: 18px 8px;
+    border:  1px solid #ccc;
+}
+
+section .contact input[type="submit"] {
+    width: 56%;
+    padding: 14px 0 14px 0;
+    margin-top: 16px;
+    background-color: #000;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.95em;
+}
