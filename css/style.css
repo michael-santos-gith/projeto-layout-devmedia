@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-size: 100%;
     border: none;
     outline: none;
     font-weight: 300;
@@ -10,7 +9,7 @@
 }
 
 body {
-    background-color: #efefef;
+    background-color: #f1f1f1;
 }
 
 a {
@@ -25,14 +24,17 @@ img {
     max-width: 100%;
 }
 
+header {
+    background-color: #fff;
+}
+
 header #header-logo-search {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 50px;
+    height: 54px;
     padding: 25px 15px 30px;
-    background-color: #fff;
 }
 
 #header-logo-search a {
@@ -55,36 +57,37 @@ header #header-logo-search {
 }
 
 nav {
-    height: 30px;
-    /* margin-bottom: 44px; */
-
+    width: 100%;
+    height: 38px;
+    background-color: #000;
 }
 
 nav ul {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #000;
+    justify-content: space-around;
+    width: 100%;
+    line-height: 2;
 }
 
 nav ul li {
-    width: 100%;
-    padding: 14px 14px;
+    padding: 3px 16px;
+}
+
+nav ul li a {
     color: #fff;
 }
 
-nav ul li:hover {
+.active {
     background-color: #f44336;
 }
 
 nav ul li i {
-    margin-right: 8px;
+    margin-right: 16px;
 }
 
 .travel {
     width: 100%;
-    margin-top: 16px;
-    padding-top: 44px;
+    padding-top: 30px;
     padding-left: 16px;
     padding-right: 16px;
     background-color: #fff;
@@ -92,14 +95,14 @@ nav ul li i {
 
 .travel h1 {
     margin-bottom: 16px;
-    font-size: 1.4em;
+    font-size: 1.5em;
 }
 
 .travel input {
     width: 100%;
     margin-top: 2px;
     margin-bottom: 2px;
-    padding: 14px 10px;
+    padding: 12px 10px;
     border: 1px solid #ccc;
 }
 
@@ -109,6 +112,7 @@ nav ul li i {
     margin-top: 14px;
     margin-bottom: 30px;
     padding: 14px 14px;
+    font-size: 15px;
     line-height: 10px;
     background-color: #616161;
     color: #fff;
@@ -120,11 +124,11 @@ main {
 }
 
 main h2 {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 main p {
-    margin-top: 16px;
+    margin-top: 22px;
 }
 
 main section p strong {
@@ -155,7 +159,7 @@ main section p strong {
 }
 
 .explore {
-    padding-top: 34px;
+    padding-top: 30px;
 }
 
 .explore div {
@@ -174,16 +178,17 @@ main section p strong {
 
 .explore p {
     font-size: 0.96em;
-    margin-bottom: 10px;
+    margin-bottom: 18px;
 }
 
 .explore button {
     margin-left: 16px;
     background-color: #fff;
+    font-size: 15px;
 }
 
 .explore .container-explore {
-    padding: 18px 18px 30px 18px;
+    padding: 18px 18px 26px 18px;
 }
 
 .explore .container-block {
@@ -213,13 +218,14 @@ section .get-offers p {
 
 section .get-offers input[type="email"] {
     width: 100%;
-    padding: 10px;
+    padding: 11px;
     margin-top: 4px;
 }
 
 section .get-offers button {
     margin-top: 18px;
     padding: 12px 18px;
+    font-size: 15px;
     background-color: #f38981;
     color: #fff;
 }
@@ -281,6 +287,7 @@ footer ul {
 
 footer ul li {
     margin-right: 6px;
+    font-size: 19px;
 }
 
 footer ul li:last-child {
@@ -294,3 +301,4 @@ footer ul li a {
 footer p {
     padding-bottom: 36px;
 }
+/* 450px */
