@@ -25,6 +25,8 @@ img {
 }
 
 header {
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
 }
 
@@ -35,6 +37,7 @@ header #header-logo-search {
     width: 100%;
     height: 54px;
     padding: 25px 15px 30px;
+    border-bottom: 1px solid #ccc;
 }
 
 #header-logo-search a {
@@ -56,36 +59,36 @@ header #header-logo-search {
     color: #757575;
 }
 
-nav {
+#nav-container nav {
     width: 100%;
-    height: 38px;
+    height: 39px;
     background-color: #000;
 }
 
-nav ul {
+#nav-container nav ul {
     display: flex;
     justify-content: space-around;
+}
+
+#nav-container nav ul li{
     width: 100%;
-    line-height: 2;
+    padding: 10px;
+    text-align: center;
 }
 
-nav ul li {
-    padding: 3px 12px;
-}
-
-nav ul li a {
+#nav-container nav ul li a {
     color: #fff;
 }
 
-.active {
-    background-color: #f44336;
-}
-
-nav ul li i {
+#nav-container nav ul li i {
     margin-right: 16px;
 }
 
-.travel {
+#nav-container .active {
+    background-color: #f44336;
+}
+
+#nav-container .travel {
     width: 100%;
     padding-top: 30px;
     padding-left: 16px;
@@ -93,12 +96,12 @@ nav ul li i {
     background-color: #fff;
 }
 
-.travel h1 {
+#nav-container .travel h1 {
     margin-bottom: 16px;
     font-size: 1.5em;
 }
 
-.travel input {
+#nav-container .travel input {
     width: 100%;
     margin-top: 2px;
     margin-bottom: 2px;
@@ -106,7 +109,7 @@ nav ul li i {
     border: 1px solid #ccc;
 }
 
-.travel button {
+#nav-container .travel button {
     width: 65%;
     height: 40px;
     margin-top: 14px;
@@ -135,94 +138,94 @@ main section p strong {
     font-weight: bold;
 }
 
-.good-offers {
+main #container-good-offers .good-offers {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.good-offers div img {
-    width: 286px;
-    height: 220px;
-}
-
-.good-offers div {
+main #container-good-offers .good-offers div {
     position: relative;
     margin-top: 12px;
 }
 
-.good-offers div span {
+main #container-good-offers .good-offers div span {
     position: absolute;
-    top: 190px;
+    top: 84%;
     left: 16px;
+    font-size: 1.1em;
     color: #fff;
 }
 
-.explore {
+main #container-explore {
     padding-top: 30px;
 }
 
-.explore div {
-    background-color: #fff;
-}
-
-.explore div h2 {
+main #container-explore p {
+    font-size: 0.96em;
     margin-bottom: 18px;
 }
 
-.explore div h3 {
+main #container-explore .container-description-explore {
+    background-color: #fff;
+}
+
+main #container-explore .container-description-explore h2 {
+    margin-bottom: 18px;
+}
+
+main #container-explore .container-description-explore h3 {
     margin-bottom: 18px;
     font-size: 0.85em;
     color: #666;
 }
 
-.explore p {
-    font-size: 0.96em;
-    margin-bottom: 18px;
-}
-
-.explore button {
+main #container-explore .container-description-explore button {
     margin-left: 16px;
     background-color: #fff;
     font-size: 15px;
 }
 
-.explore .container-explore {
+main #container-explore .container-block .container-description-explore {
     padding: 18px 18px 26px 18px;
 }
 
-.explore .container-block {
+main #container-explore .container-block {
     margin-top: 16px;
 }
 
-.explore .container-block p {
+main #container-explore .container-block .container-img {
+    background-color: #fff;
+}
+
+main #container-explore .container-block p {
     margin-bottom: 30px;
 }
 
-section .get-offers {
+main #container-get-offers .get-offers {
     margin-top: 34px;
     padding: 34px 16px 16px 16px;
     background-color: #606060;
     color: #fff;
 }
 
-section .get-offers h2 {
+main #container-get-offers h2 {
     font-size: 1.8em;
     font-weight: 500;
     line-height: 1.5;
 }
 
-section .get-offers p {
+main #container-get-offers p {
     margin-bottom: 24px;
 }
 
-section .get-offers input[type="email"] {
+main #container-get-offers .get-offers input[type="email"] {
     width: 100%;
     padding: 11px;
     margin-top: 4px;
 }
 
-section .get-offers button {
+main #container-get-offers .get-offers button {
     margin-top: 18px;
     padding: 12px 18px;
     font-size: 15px;
@@ -230,41 +233,41 @@ section .get-offers button {
     color: #fff;
 }
 
-section .contact {
+main #container-get-offers .contact {
     margin-top: 36px;
 }
 
-section .contact h2 {
-   margin-bottom: 22px; 
-}
+main #container-get-offers .contact h2 {
+    margin-bottom: 22px; 
+ }
 
-section .contact p {
+ main #container-get-offers .contact p {
     margin-bottom: 24px;
     font-size: 0.9em;
 }
 
-section .contact ul li {
+main #container-get-offers .contact ul li {
     display: flex;
     align-items: baseline;
     margin-bottom: 8px;
 }
 
-section .contact ul li:last-child {
-    margin-bottom: 0;
-}
-
-section .contact ul li i {
+main #container-get-offers .contact ul li i {
     margin-right: 18px;
 }
 
-section .contact input[type="text"], input[type="email"] {
+main #container-get-offers .contact ul li:last-child {
+    margin-bottom: 0;
+}
+
+main #container-get-offers .contact input[type="text"], input[type="email"] {
     width: 100%;
     margin-top: 16px;
     padding: 18px 8px;
     border:  1px solid #ccc;
 }
 
-section .contact input[type="submit"] {
+main #container-get-offers .contact input[type="submit"] {
     width: 56%;
     padding: 14px 0 14px 0;
     margin-top: 16px;
@@ -302,63 +305,12 @@ footer p {
     padding-bottom: 36px;
 }
 /* 450px */
-@media (max-width: 450px) {
-    nav ul li {
-        width: 100%;
+@media (min-width: 450px) {
+    #nav-container .travel button {
+        width: 46%;
     }
 
-    .travel button {
-        width: 45%;
-    }
-
-    main {
-        padding-top: 46px;
-    }
-
-    main section p {
-        margin-top: 14px;
-    }
-
-    .good-offers div img {
-        width: 100%;
-        height: auto;
-    }
-
-    .good-offers div span {
-        top: 280px;
-        font-size: 18px;
-    }
-
-    section .get-offers input[type="email"] {
-        padding: 12px;
-    }
-
-    section .contact h2 {
-        font-weight: 400;
-        font-size: 28px;
-    }
-
-    section .contact input[type="submit"] {
-        width: 40%;
-    }
-
-    .explore {
-        padding-top: 24px;
-    }
-
-    main .explore p {
-        margin-top: 20px;
-    }
-
-    .explore button {
-        font-size: 16px;
-    }
-
-    .explore div h3 {
-        font-size: 0.96em;
-    }
-
-    .explore .container-block p {
-        font-size: 16px;
+    main #container-get-offers .contact input[type="submit"] {
+        width: 44%;
     }
 }
