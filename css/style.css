@@ -302,3 +302,63 @@ footer p {
     padding-bottom: 36px;
 }
 /* 450px */
+@media (max-width: 450px) {
+    nav ul li {
+        width: 100%;
+    }
+
+    .travel button {
+        width: 45%;
+    }
+
+    main {
+        padding-top: 46px;
+    }
+
+    main section p {
+        margin-top: 14px;
+    }
+
+    .good-offers div img {
+        width: 100%;
+        height: auto;
+    }
+
+    .good-offers div span {
+        top: 280px;
+        font-size: 18px;
+    }
+
+    section .get-offers input[type="email"] {
+        padding: 12px;
+    }
+
+    section .contact h2 {
+        font-weight: 400;
+        font-size: 28px;
+    }
+
+    section .contact input[type="submit"] {
+        width: 40%;
+    }
+
+    .explore {
+        padding-top: 24px;
+    }
+
+    main .explore p {
+        margin-top: 20px;
+    }
+
+    .explore button {
+        font-size: 16px;
+    }
+
+    .explore div h3 {
+        font-size: 0.96em;
+    }
+
+    .explore .container-block p {
+        font-size: 16px;
+    }
+}
