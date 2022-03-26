@@ -12,27 +12,34 @@
 <body>
 
     <header>
-        <div id="header-logo-search">
-            <a class="logo" href="#"><i class="fa fa-map-marker fa-lg"></i><span>Logo</span></a>
-            <a class="logo-search" href="#"><i class="fa fa-search fa-lg"></i></a>
-        </div>
-
-        <div id="nav-container">
-            <nav>
-                <ul>
-                    <li class="active"><a href="#"><i class="fa fa-plane"></i>Flight</a></li>
-                    <li><a href="#"><i class="fa fa-bed"></i>Hotel</a></li>
-                    <li><a href="#"><i class="fa fa-car"></i>Rental</a></li>
-                </ul>
-            </nav>
-            <form class="travel">
-                <h1>Travel the world with us</h1>
-                <label for="from">From</label><br>
-                <input type="text" name="from" id="from" placeholder="Departing from"><br>
-                <label for="to">To</label><br>
-                <input type="text" name="to" id="to" placeholder="Arriving at">
-                <button>Search and find dates</button>
-            </form>
+        <div id="container-header">
+            <div id="header-logo-search">
+                <a class="logo" href="#"><i class="fa fa-map-marker fa-lg"></i><span>Logo</span></a>
+                <a class="logo-search" href="#"><i class="fa fa-search fa-lg"></i></a>
+            </div>
+            <div id="nav-container">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="#"><i class="fa fa-plane"></i>Flight</a></li>
+                        <li><a href="#"><i class="fa fa-bed"></i>Hotel</a></li>
+                        <li><a href="#"><i class="fa fa-car"></i>Rental</a></li>
+                    </ul>
+                </nav>
+                <form class="travel">
+                    <h1>Travel the world with us</h1>
+                    <div id="container-form">
+                        <div>
+                            <label for="from">From</label><br>
+                            <input type="text" name="from" id="from" placeholder="Departing from"><br>
+                        </div>
+                        <div>
+                            <label for="to">To</label><br>
+                            <input type="text" name="to" id="to" placeholder="Arriving at">
+                        </div>
+                    </div>
+                    <button>Search and find dates</button>
+                </form>
+            </div>
         </div>
     </header>
 
@@ -44,25 +51,27 @@
             <p>Up to <strong>50%</strong> discount</p>
 
             <div class="good-offers">
-                <div>
+                <div id="img-1" style="height: auto;">
                     <img src="./imagens/cinqueterre.jpg" alt="Cinque Terre">
                     <span>Cinque Terre</span>
                 </div>
                 <div>
-                    <img src="./imagens/newyork.jpg" alt="New York">
-                    <span>New York</span>
-                </div>
-                <div>
-                    <img src="./imagens/sanfran.jpg" alt="San Francisco">
-                    <span>San Francisco</span>
-                </div>
-                <div>
-                    <img src="./imagens/pisa.jpg" alt="Pisa">
-                    <span>Pisa</span>
-                </div>
-                <div>
-                    <img src="./imagens/paris.jpg" alt="Paris">
-                    <span>Paris</span>
+                    <div id="img-2">
+                        <img src="./imagens/newyork.jpg" alt="New York">
+                        <span>New York</span>
+                    </div>
+                    <div id="img-3">
+                        <img src="./imagens/sanfran.jpg" alt="San Francisco">
+                        <span>San Francisco</span>
+                    </div>
+                    <div id="img-4">
+                        <img src="./imagens/pisa.jpg" alt="Pisa">
+                        <span>Pisa</span>
+                    </div>
+                    <div id="img-5">
+                        <img src="./imagens/paris.jpg" alt="Paris">
+                        <span>Paris</span>
+                    </div>
                 </div>
             </div>
         </section>
