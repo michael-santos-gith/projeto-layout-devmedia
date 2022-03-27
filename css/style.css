@@ -440,7 +440,11 @@ footer p {
     }
  
     main {
-        padding: 34px 150px 0 150px;
+        padding: 34px 144px 0 144px;
+    }
+
+    main p {
+        margin-top: 12px;
     }
 
     main #container-good-offers .good-offers div {
